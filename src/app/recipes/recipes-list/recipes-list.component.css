@@ -1,3 +1,24 @@
-.img-responsive img {
+.pull-right img {
   max-height: 50px;
+  border: 1px solid #ccc;
+}
+
+.recipe {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.recipe:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.pull-left h4{
+  color: black
+}
+
+.pull-left p{
+  color: black
 }
